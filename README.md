@@ -24,7 +24,7 @@ LISA-GUIDE.md         One-page guide for Lisa: log in, add a product, change a p
 LISA-GUIDE.pdf        Printable version of the guide to send her (made from LISA-GUIDE-print.html)
 LISA-GUIDE-print.html Source for the PDF. After changing it, open it in Chrome and Print → Save as PDF (Letter, no headers/footers)
 images/               All photos (swap these out for your own)
-netlify.toml          Tells Netlify how to publish the site, plus redirects and rules that hide internal notes
+netlify.toml          Tells Netlify how to publish the site (and which internal notes to leave off it), plus redirects
 sitemap.xml           List of pages for Google (update it if you add a page)
 robots.txt            Tells search engines where the sitemap is
 ```
@@ -32,8 +32,9 @@ robots.txt            Tells search engines where the sitemap is
 ---
 
 **Internal notes stay off the website.** `README.md`, `LISA-GUIDE.md` and `LISA-GUIDE-print.html` are only in the GitHub
-repository. `netlify.toml` makes the website show "page not found" for them. `LISA-GUIDE.pdf` is public on purpose,
-so Lisa can be sent the link. If you add another internal note, add a matching rule in `netlify.toml`.
+repository. The build command in `netlify.toml` deletes them from Netlify's copy before publishing, so the website
+shows "page not found" for them. `LISA-GUIDE.pdf` is public on purpose, so Lisa can be sent the link. If you add
+another internal note, add its name to that command.
 
 ---
 
@@ -224,7 +225,7 @@ To check the phone layout, open your browser's developer tools (F12) and turn on
 
 The site is connected to GitHub (repository `Jasonhahn-ai/knotty-girlz`, branch `main`). **Every push to GitHub,
 and every save on the admin page, goes live automatically** in about a minute. You can watch it under the site's
-**Deploys** tab in Netlify. There's no build step: Netlify just publishes the folder (`netlify.toml` sets this).
+**Deploys** tab in Netlify. The only build step removes the internal notes (see above). Otherwise Netlify publishes the folder as is (`netlify.toml` sets this).
 
 Don't drag and drop the folder into Netlify anymore. The next GitHub push would replace it, and it could put back
 products Lisa has removed.
