@@ -33,12 +33,21 @@ collections:
         label: Shop Products
         file: data/products.json
         format: json
+        # No preview panel, so the product list gets the whole screen.
+        editor:
+          preview: false
         fields:
           - name: products
             label: Products
             label_singular: Product
             widget: list
             add_to_top: true
+            # Each product starts as one bar (photo, name, price) with an ✕ on the right to remove it.
+            # Click the bar to open it. Drag the handle in the middle of the bar to reorder.
+            collapsed: true
+            thumbnail: image
+            allow_remove: true
+            allow_reorder: true
             summary: "{{fields.name}} ({{fields.price}})"
             fields:
               - name: name
