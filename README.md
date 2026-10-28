@@ -230,6 +230,10 @@ Secret are saved in Netlify under **Site configuration → Access & security →
 edit products needs a GitHub account added as a collaborator on the repository (GitHub repository → **Settings →
 Collaborators**).
 
+| Who | GitHub username | Access | Status |
+|---|---|---|---|
+| Lisa | `12voltman512` | Write | Invited 2026-10-28, **pending**. She has to accept the email invitation before she can sign in to the admin page. |
+
 ### Turn on the forms
 Netlify finds the **Contact** form automatically when you deploy.
 1. After the first deploy, open your site in Netlify → **Forms**. If you see a button to
