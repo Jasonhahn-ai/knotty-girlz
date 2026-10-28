@@ -44,7 +44,7 @@ You can add, change and remove products yourself. No code needed. Anything you s
 ## Remove a product
 
 1. Find the product in the list.
-2. Click the little **menu button (⋮)** on that product's row and choose **Remove**.
+2. Click the **⋮** (More Options) button on that product and choose **Remove Product**.
 3. Click **Save**.
 
 > Just sold out for now? You can remove it and add it again later. The photo stays saved.
@@ -55,5 +55,5 @@ You can add, change and remove products yourself. No code needed. Anything you s
 
 - **Nothing changes on the website until you click Save.**
 - After saving, wait 1–2 minutes, then refresh the Shop page to see it.
-- You can **drag products up or down** in the list to change their order on the Shop page.
+- To change the order on the Shop page, use **Move Up** or **Move Down** in a product's **⋮** menu.
 - **Stuck or made a mistake?** Don't worry. Just text or call Jason. Everything can be undone.
