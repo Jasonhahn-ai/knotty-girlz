@@ -24,10 +24,16 @@ LISA-GUIDE.md         One-page guide for Lisa: log in, add a product, change a p
 LISA-GUIDE.pdf        Printable version of the guide to send her (made from LISA-GUIDE-print.html)
 LISA-GUIDE-print.html Source for the PDF. After changing it, open it in Chrome and Print → Save as PDF (Letter, no headers/footers)
 images/               All photos (swap these out for your own)
-netlify.toml          Tells Netlify how to publish the site
+netlify.toml          Tells Netlify how to publish the site, plus redirects and rules that hide internal notes
 sitemap.xml           List of pages for Google (update it if you add a page)
 robots.txt            Tells search engines where the sitemap is
 ```
+
+---
+
+**Internal notes stay off the website.** `README.md`, `LISA-GUIDE.md` and `LISA-GUIDE-print.html` are only in the GitHub
+repository. `netlify.toml` makes the website show "page not found" for them. `LISA-GUIDE.pdf` is public on purpose,
+so Lisa can be sent the link. If you add another internal note, add a matching rule in `netlify.toml`.
 
 ---
 

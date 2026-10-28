@@ -31,3 +31,30 @@
   to = "/shop.html"
   status = 302
   force = true
+
+# Internal notes live in the GitHub repo only. Show "page not found" if anyone visits them on the website.
+# (LISA-GUIDE.pdf stays public so it can be sent to Lisa as a link.)
+# If you add another internal note to this folder, add a rule for it here.
+[[redirects]]
+  from = "/README.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/LISA-GUIDE.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/LISA-GUIDE-print.html"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/LISA-GUIDE-print"
+  to = "/404.html"
+  status = 404
+  force = true
