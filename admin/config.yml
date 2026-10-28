@@ -1,0 +1,75 @@
+# Settings for the Knotty Girlz admin page (Sveltia CMS), at knottygirlzboutique.com/admin/
+# Lisa signs in with GitHub. Every save is committed to GitHub, and Netlify publishes it in about a minute.
+
+backend:
+  name: github
+  repo: Jasonhahn-ai/knotty-girlz
+  branch: main
+  # Sign-in goes through Netlify's built-in GitHub sign-in (Netlify > Site configuration > Access & security > OAuth).
+
+site_url: https://knottygirlzboutique.com
+display_url: https://knottygirlzboutique.com/shop.html
+
+# Uploaded photos go into the images folder. They're converted to WebP and shrunk to fit
+# 1200 x 1200 so phone photos stay small and the site loads fast.
+media_folder: images
+public_folder: /images
+media_libraries:
+  default:
+    config:
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 1200
+          height: 1200
+
+collections:
+  - name: shop
+    label: Shop
+    files:
+      - name: products
+        label: Shop Products
+        file: data/products.json
+        format: json
+        fields:
+          - name: products
+            label: Products
+            label_singular: Product
+            widget: list
+            add_to_top: true
+            summary: "{{fields.name}} ({{fields.price}})"
+            fields:
+              - name: name
+                label: Product name
+                widget: string
+              - name: price
+                label: Price
+                widget: string
+                hint: 'Type it the way customers should see it, like $20 or $5 each.'
+              - name: category
+                label: Category
+                widget: select
+                options:
+                  - { label: "Custom Shirts", value: shirts }
+                  - { label: "Jewelry", value: jewelry }
+                  - { label: "Tunics & Tops", value: tunics }
+                  - { label: "Pants", value: pants }
+                  - { label: "Beachwear", value: beachwear }
+                  - { label: "Gifts & Totes", value: gifts }
+                  - { label: "Hats & Accessories", value: accessories }
+              - name: image
+                label: Photo
+                widget: image
+                hint: 'A square photo looks best. The edges of tall or wide photos get trimmed.'
+              - name: alt
+                label: Photo description
+                widget: string
+                required: false
+                hint: 'Describe the photo in a few words for people who can''t see it, like: Pink beach tote with a starfish.'
+              - name: description
+                label: Description (optional)
+                widget: text
+                required: false
+                hint: 'Shows under the name. Leave empty to keep the card short.'

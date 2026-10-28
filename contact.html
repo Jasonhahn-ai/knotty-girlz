@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Knotty Girlz</title>
+  <meta name="description" content="Contact Knotty Girlz in Cape Charles, VA with questions or orders.">
+  <meta name="theme-color" content="#F25C8A">
+
+  <!-- Social sharing preview (Facebook, iMessage, etc.) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact | Knotty Girlz">
+  <meta property="og:description" content="Contact Knotty Girlz in Cape Charles, VA with questions or orders.">
+  <meta property="og:url" content="https://knottygirlzboutique.com/contact.html">
+  <meta property="og:image" content="https://knottygirlzboutique.com/images/og-image.jpg">
+
+  <link rel="canonical" href="https://knottygirlzboutique.com/contact.html">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <!-- Google Fonts: Pacifico (logo), Caveat (headings), Nunito (body text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Nunito:wght@400;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== HEADER (same on every page) ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Text logo. To use an image logo instead, replace the text with:
+           <img src="images/logo.png" alt="Knotty Girlz" height="48"> -->
+      <a class="logo" href="index.html">Knotty <span>Girlz</span></a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Get in Touch</h1>
+        <p>Questions, orders, or just want to say hi? We&rsquo;d love to hear from you.</p>
+      </div>
+      <div class="wave" style="color:var(--white);background:transparent;" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C240,80 480,0 720,30 C960,60 1200,10 1440,40 L1440,80 L0,80 Z"/></svg></div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div>
+          <h2>Reach Us</h2>
+          <ul class="info-list">
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><a href="mailto:lpysher@live.com">lpysher@live.com</a></li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Cape Charles, VA<!-- HIDDEN UNTIL LISA'S TEXT: &mdash; [ONLINE ONLY / STUDIO BY APPOINTMENT] --></span></li>
+          </ul>
+          <!-- HIDDEN UNTIL LISA'S TEXT: <p>We usually reply within [24&ndash;48 HOURS].</p> -->
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100090896074103" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg> Facebook</a>
+          </div>
+        </div>
+
+        <!-- CONTACT FORM (works automatically with Netlify Forms) -->
+        <div class="form-card">
+          <form name="contact" method="POST" action="thank-you.html"
+                data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact">
+            <p class="hidden-field"><label>Don&rsquo;t fill this out: <input name="bot-field"></label></p>
+
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">Name <span class="req">*</span></label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="email">Email <span class="req">*</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel">
+              </div>
+              <div class="field">
+                <label for="product">Product <span class="hint">(if asking about one)</span></label>
+                <input id="product" name="product" type="text">
+              </div>
+              <div class="field full">
+                <label for="message">Message <span class="req">*</span></label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- HIDDEN UNTIL LISA'S TEXT: "Find Us at Markets & Events" section (3 events). Copy an <li> block to add more.
+    <div class="wave" style="color:var(--sand);background:transparent;" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C240,80 480,0 720,30 C960,60 1200,10 1440,40 L1440,80 L0,80 Z"/></svg></div>
+    <section class="section section-tint" id="events">
+      <div class="container">
+        <h2 class="section-title">Find Us at Markets &amp; Events</h2>
+        <p class="section-intro">Come shop in person, try things on, and say hello! Follow us on social for last-minute updates.</p>
+        <ul class="event-list">
+          <li>
+            <h3>[EVENT / MARKET NAME]</h3>
+            <p class="event-date">[DATE &amp; TIME]</p>
+            <p>[LOCATION / ADDRESS]</p>
+          </li>
+          <li>
+            <h3>[EVENT / MARKET NAME]</h3>
+            <p class="event-date">[DATE &amp; TIME]</p>
+            <p>[LOCATION / ADDRESS]</p>
+          </li>
+          <li>
+            <h3>[EVENT / MARKET NAME]</h3>
+            <p class="event-date">[DATE &amp; TIME]</p>
+            <p>[LOCATION / ADDRESS]</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="wave" style="color:var(--white);background:var(--sand);" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C240,80 480,0 720,30 C960,60 1200,10 1440,40 L1440,80 L0,80 Z"/></svg></div>
+    END HIDDEN -->
+  </main>
+
+  <!-- ===== FOOTER (same on every page) ===== -->
+  <footer class="site-footer">
+    <div class="wave" style="color:var(--ink);background:transparent;" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C240,80 480,0 720,30 C960,60 1200,10 1440,40 L1440,80 L0,80 Z"/></svg></div>
+    <div class="footer-body">
+      <div class="container footer-inner">
+        <div>
+          <a class="logo" href="index.html">Knotty <span>Girlz</span></a>
+          <p>Custom shirts, jewelry, tunics &amp; beachy styles &mdash; hand-picked in Cape Charles, VA, with a coastal soul.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/profile.php?id=100090896074103" target="_blank" rel="noopener" aria-label="Knotty Girlz on Facebook"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+            <a href="mailto:lpysher@live.com" aria-label="Email Knotty Girlz"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- HIDDEN UNTIL LISA'S TEXT (Markets & Events section): <li><a href="contact.html#events">Markets &amp; Events</a></li> -->
+          </ul>
+        </div>
+        <div>
+          <h2>Say Hello</h2>
+          <ul>
+            <li><a href="mailto:lpysher@live.com">lpysher@live.com</a></li>
+            <li>Cape Charles, VA</li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; <span data-year>2026</span> Knotty Girlz. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

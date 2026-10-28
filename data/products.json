@@ -1,0 +1,571 @@
+{
+  "products": [
+    {
+      "name": "‘Tis the Season Holiday Tee",
+      "price": "$20",
+      "category": "shirts",
+      "image": "/images/shirts-1.jpg",
+      "alt": "White sleeveless v-neck tee with a festive holiday wreath design and the words Tis the Season"
+    },
+    {
+      "name": "Most Wonderful Time Tee",
+      "price": "$20",
+      "category": "shirts",
+      "image": "/images/shirts-2.jpg",
+      "alt": "Black v-neck tee with an embroidered-look tree, reindeer, Santa and snowman design"
+    },
+    {
+      "name": "Cat Mom Tee",
+      "price": "$15",
+      "category": "shirts",
+      "image": "/images/shirts-3.jpg",
+      "alt": "Heather gray short-sleeve tee printed with Cat Mom and a cat face outline"
+    },
+    {
+      "name": "Coastal Christmas Tee",
+      "price": "$20",
+      "category": "shirts",
+      "image": "/images/shirts-4.jpg",
+      "alt": "Coastal Christmas design with a seashell Christmas tree, a crab in a Santa hat, a teal Adirondack chair and a Life is Better at the Beach sign"
+    },
+    {
+      "name": "Dog Mom Tee",
+      "price": "$15",
+      "category": "shirts",
+      "image": "/images/shirts-5.jpg",
+      "alt": "Heather raspberry short-sleeve tee printed with dog mom and two paw prints"
+    },
+    {
+      "name": "Merry Christmas Trees V-Neck Tee",
+      "price": "$20",
+      "category": "shirts",
+      "image": "/images/shirts-6.jpg",
+      "alt": "Navy v-neck tee with leopard and plaid Christmas trees, a gold bow and Merry Christmas script"
+    },
+    {
+      "name": "Merry Merry Santa Sweatshirt",
+      "price": "$25",
+      "category": "shirts",
+      "image": "/images/shirts-7.jpg",
+      "alt": "Light blue crewneck sweatshirt with a fluffy Santa and leopard-print Merry Merry Christmas lettering"
+    },
+    {
+      "name": "Merry Christmas Reindeer Tee",
+      "price": "$20",
+      "category": "shirts",
+      "image": "/images/shirts-8.jpg",
+      "alt": "White tee with a reindeer in a Santa hat above chunky red Merry Christmas lettering"
+    },
+    {
+      "name": "Let It Snow Snowman Tee",
+      "price": "$20",
+      "category": "shirts",
+      "image": "/images/shirts-9.jpg",
+      "alt": "Charcoal v-neck tee with pink and leopard Let It Snow lettering, a snowman and pink Christmas trees"
+    },
+    {
+      "name": "Santa Canvas Tote",
+      "price": "$15",
+      "category": "gifts",
+      "image": "/images/totes-1.jpg",
+      "alt": "Natural canvas tote bag with a fluffy embroidered-look Santa face"
+    },
+    {
+      "name": "Winter Season Snowman Tote",
+      "price": "$15",
+      "category": "gifts",
+      "image": "/images/totes-2.jpg",
+      "alt": "Canvas tote bag with a cozy snowman in a plaid scarf and the word Season"
+    },
+    {
+      "name": "Merry Grinchmas Tote",
+      "price": "$15",
+      "category": "gifts",
+      "image": "/images/totes-3.jpg",
+      "alt": "Canvas tote bag printed with colorful Merry Grinchmas lettering"
+    },
+    {
+      "name": "Pour the Holiday Cheer Gift Set",
+      "price": "$15",
+      "category": "gifts",
+      "image": "/images/gifts-1.jpg",
+      "alt": "Stemless wine glass gift set with a pink spa hand cream reading Pour the Holiday Cheer"
+    },
+    {
+      "name": "Hot Cocoa Mug Gift Set",
+      "price": "$15",
+      "category": "gifts",
+      "image": "/images/gifts-3.jpg",
+      "alt": "Red Christmas mugs filled with hot cocoa mix and candy canes, wrapped with Merry Christmas tags"
+    },
+    {
+      "name": "Handcrafted Wood Ornaments",
+      "price": "$1 each",
+      "category": "gifts",
+      "image": "/images/custom-ornaments.jpg",
+      "alt": "Handcrafted wooden Santa and Christmas tree ornaments and gift tags with festive sayings, hung with red and white string"
+    },
+    {
+      "name": "Coastal Autumn Kitchen Towel: Adirondack Chair",
+      "price": "$12",
+      "category": "gifts",
+      "image": "/images/gifts-5.jpg",
+      "alt": "Waffle kitchen towel printed with a palm tree, blue Adirondack chair and pumpkins"
+    },
+    {
+      "name": "Coastal Autumn Kitchen Towel: Palm & Lantern",
+      "price": "$12",
+      "category": "gifts",
+      "image": "/images/gifts-6.jpg",
+      "alt": "Waffle kitchen towel printed with a palm tree, lantern and pumpkins"
+    },
+    {
+      "name": "Coastal Autumn Kitchen Towel: Beach Chair",
+      "price": "$12",
+      "category": "gifts",
+      "image": "/images/gifts-7.jpg",
+      "alt": "Waffle kitchen towel printed with a striped beach chair, pumpkins and starfish"
+    },
+    {
+      "name": "Autumn by the Sea Kitchen Towel",
+      "price": "$12",
+      "category": "gifts",
+      "image": "/images/gifts-8.jpg",
+      "alt": "Waffle kitchen towel printed with a sailboat, pumpkins and the words autumn by the sea"
+    },
+    {
+      "name": "Salty Palm Leaf Tote",
+      "price": "$25",
+      "category": "gifts",
+      "image": "/images/totes-4.jpg",
+      "alt": "Canvas beach tote with a tan palm leaf print and SALTY embroidered in turquoise"
+    },
+    {
+      "name": "Banana Boat Tropical Tote",
+      "price": "$25",
+      "category": "gifts",
+      "image": "/images/totes-5.jpg",
+      "alt": "Tropical print tote with green handles, plus a close-up of the Banana Boat label inside"
+    },
+    {
+      "name": "Beach Arrow Ceramic Sign",
+      "price": "$15",
+      "category": "gifts",
+      "image": "/images/gifts-9.jpg",
+      "alt": "Small ceramic sign reading beach with a blue arrow, hung from a rope with a seashell"
+    },
+    {
+      "name": "Beach Hair Don’t Care Ceramic Sign",
+      "price": "$15",
+      "category": "gifts",
+      "image": "/images/gifts-10.jpg",
+      "alt": "Small ceramic sign reading Beach Hair Don't Care, hung from a rope with a starfish"
+    },
+    {
+      "name": "Holiday Pup Treat Bag",
+      "price": "$8",
+      "category": "gifts",
+      "image": "/images/gifts-11.jpg",
+      "alt": "Clear holiday bag of dog biscuits and a tennis ball tied with a Merry Christmas tag"
+    },
+    {
+      "name": "Beach Bracelets",
+      "price": "$5 each",
+      "category": "jewelry",
+      "image": "/images/jewelry-1.jpg",
+      "alt": "Display of dozens of colorful cord, bead and shell beach bracelets"
+    },
+    {
+      "name": "Lightweight Filigree Earrings",
+      "price": "$5 each",
+      "category": "jewelry",
+      "image": "/images/jewelry-2.jpg",
+      "alt": "Lacy filigree drop earrings in many colors laid out on a black board"
+    },
+    {
+      "name": "Wave & Sea Turtle Bracelet Sets",
+      "price": "$5 each",
+      "category": "jewelry",
+      "image": "/images/jewelry-3.jpg",
+      "alt": "Sets of layered cord bracelets with wave, sea turtle, compass and starfish charms"
+    },
+    {
+      "name": "Ocean Charm Bracelet Stack",
+      "price": "$5 each",
+      "category": "jewelry",
+      "image": "/images/jewelry-4.jpg",
+      "alt": "Stack of turquoise beaded bracelets with pearl, starfish, fish and octopus charms on a wrist"
+    },
+    {
+      "name": "Sea Life Beaded Bracelets",
+      "price": "$5 each",
+      "category": "jewelry",
+      "image": "/images/jewelry-5.jpg",
+      "alt": "Five turquoise, pink and pearl bracelets with shell, fish and seahorse charms"
+    },
+    {
+      "name": "Adjustable Charm Cord Bracelets",
+      "price": "$5 each",
+      "category": "jewelry",
+      "image": "/images/jewelry-6.jpg",
+      "alt": "Pastel adjustable cord bracelets with cowrie shell, fish and starfish charms"
+    },
+    {
+      "name": "Boho Earring Sets",
+      "price": "$5 each",
+      "category": "jewelry",
+      "image": "/images/jewelry-7.jpg",
+      "alt": "Cards of silver boho earring sets with moon, heart, turquoise and filigree designs"
+    },
+    {
+      "name": "Turquoise Dreamcatcher Earring Sets",
+      "price": "$5 each",
+      "category": "jewelry",
+      "image": "/images/jewelry-8.jpg",
+      "alt": "Cards of boho earring sets with turquoise stones, tassels, dreamcatchers and feathers"
+    },
+    {
+      "name": "Ocean Resin Pendants & Earrings",
+      "price": "$10 each or 2 for $15",
+      "category": "jewelry",
+      "image": "/images/jewelry-9.jpg",
+      "alt": "Display of blue resin pendant necklaces with sand and shells, plus monstera leaf and diamond-shaped resin earrings"
+    },
+    {
+      "name": "Ocean Blue Clay Bead Bracelet Stack",
+      "price": "$5 each",
+      "category": "jewelry",
+      "image": "/images/jewelry-10.jpg",
+      "alt": "Wrist stacked with blue and white clay bead bracelets with starfish, sea turtle and cowrie shell charms"
+    },
+    {
+      "name": "Blue Paisley Cold-Shoulder Tunic",
+      "price": "$30",
+      "category": "tunics",
+      "image": "/images/tunics-1.jpg",
+      "alt": "Turquoise and white paisley tunic with cold-shoulder sleeves on a hanger"
+    },
+    {
+      "name": "Coral Button-Front Tunic",
+      "price": "$20",
+      "category": "tunics",
+      "image": "/images/tunics-2.jpg",
+      "alt": "Coral pink button-front tunic with a collar and short sleeves"
+    },
+    {
+      "name": "Tie-Dye Swirl Tunic",
+      "price": "$20",
+      "category": "tunics",
+      "image": "/images/tunics-3.jpg",
+      "alt": "Pink, blue and orange tie-dye tunic with three-quarter sleeves"
+    },
+    {
+      "name": "Tropical Parrot Print Tunic",
+      "price": "$30",
+      "category": "tunics",
+      "image": "/images/tunics-4.jpg",
+      "alt": "Bright red and green tropical parrot print tunic with a V-neck"
+    },
+    {
+      "name": "Coral Tunic with Printed Sleeves",
+      "price": "$20",
+      "category": "tunics",
+      "image": "/images/tunics-5.jpg",
+      "alt": "Coral V-neck tunic with orange floral print sleeves"
+    },
+    {
+      "name": "Dark Green Fish Print Tunic",
+      "price": "$30",
+      "category": "tunics",
+      "image": "/images/tunics-6.jpg",
+      "alt": "Long-sleeve dark green tunic with an all-over white fish print"
+    },
+    {
+      "name": "Teal Everyday Tunic",
+      "price": "$20",
+      "category": "tunics",
+      "image": "/images/tunics-7.jpg",
+      "alt": "Solid teal three-quarter sleeve tunic top"
+    },
+    {
+      "name": "Floral Peasant Blouse",
+      "price": "$15",
+      "category": "tunics",
+      "image": "/images/tunics-8.jpg",
+      "alt": "Blush floral peasant blouse with a gathered neckline"
+    },
+    {
+      "name": "Sleeveless Floral Twist Top",
+      "price": "$20",
+      "category": "tunics",
+      "image": "/images/tunics-9.jpg",
+      "alt": "Sleeveless red and teal floral top with a twist front"
+    },
+    {
+      "name": "Hot Pink Pleated Cami",
+      "price": "$15",
+      "category": "tunics",
+      "image": "/images/tunics-10.jpg",
+      "alt": "Hot pink pleated camisole with thin straps on a pink hanger"
+    },
+    {
+      "name": "Navy Lace-Trim Cami",
+      "price": "$12",
+      "category": "tunics",
+      "image": "/images/tunics-11.jpg",
+      "alt": "Navy camisole with a lace hem"
+    },
+    {
+      "name": "Jessica Taylor V-Neck Tie-Dye Vest",
+      "price": "$30",
+      "category": "tunics",
+      "image": "/images/tunics-12.jpg",
+      "alt": "Cream crochet fringe vest with navy tie-dye panels and a front tie, one size fits most"
+    },
+    {
+      "name": "Blue Coral & Seashell Print Tunic",
+      "price": "$20",
+      "category": "tunics",
+      "image": "/images/tunics-13.jpg",
+      "alt": "White v-neck tunic with a blue coral and seashell print and bell sleeves"
+    },
+    {
+      "name": "Pink Palm Burst Tunic",
+      "price": "$20",
+      "category": "tunics",
+      "image": "/images/tunics-14.jpg",
+      "alt": "Pink v-neck tunic covered in green, coral and yellow palm leaf bursts"
+    },
+    {
+      "name": "Hot Pink Anchor Print Tunic",
+      "price": "$30",
+      "category": "tunics",
+      "image": "/images/tunics-15.jpg",
+      "alt": "Hot pink split-neck tunic with a small white anchor print"
+    },
+    {
+      "name": "Blue Block Print Split-Neck Tunic",
+      "price": "$20",
+      "category": "tunics",
+      "image": "/images/tunics-16.jpg",
+      "alt": "Front and back views of a long-sleeve tunic in a blue and white block print"
+    },
+    {
+      "name": "Turquoise Print Split-Neck Tunic",
+      "price": "$20",
+      "category": "tunics",
+      "image": "/images/tunics-17.jpg",
+      "alt": "Front and back views of a long-sleeve turquoise tunic with a white floral print and side slits"
+    },
+    {
+      "name": "Navy Embroidered Peasant Tunic",
+      "price": "$20",
+      "category": "tunics",
+      "image": "/images/tunics-18.jpg",
+      "alt": "Back and front views of a navy tunic with white embroidery on the neckline and sleeves"
+    },
+    {
+      "name": "Tropical Palm Lace-Hem Tunic",
+      "price": "$20",
+      "category": "tunics",
+      "image": "/images/tunics-19.jpg",
+      "alt": "Sleeveless tunic in a red, black and teal palm print with a black lace hem"
+    },
+    {
+      "name": "Watercolor Floral Sleeveless Tunic",
+      "price": "$20",
+      "category": "tunics",
+      "image": "/images/tunics-20.jpg",
+      "alt": "Sleeveless tunic with a watercolor print of navy, green and peach flowers"
+    },
+    {
+      "name": "Wildflower Sketch Tee",
+      "price": "$15",
+      "category": "tunics",
+      "image": "/images/tunics-21.jpg",
+      "alt": "Cream short-sleeve tee with a black line drawing of a wildflower bouquet"
+    },
+    {
+      "name": "White Button-Pocket Tee",
+      "price": "$15",
+      "category": "tunics",
+      "image": "/images/tunics-22.jpg",
+      "alt": "Loose white short-sleeve tee with a chest pocket and a wooden button"
+    },
+    {
+      "name": "Royal Blue Open-Front Cardigan",
+      "price": "$20",
+      "category": "tunics",
+      "image": "/images/tunics-23.jpg",
+      "alt": "Long royal blue open-front cardigan with a draped hem, worn over a black top and jeans"
+    },
+    {
+      "name": "Erika Jeans (Sirens Wash)",
+      "price": "$30",
+      "category": "pants",
+      "image": "/images/pants-1.jpg",
+      "alt": "Medium blue soft stretchy pull-on Erika jeans"
+    },
+    {
+      "name": "Turquoise Sundress",
+      "price": "$10",
+      "category": "beachwear",
+      "image": "/images/beachwear-1.jpg",
+      "alt": "Bright turquoise sleeveless sundress with a keyhole neckline"
+    },
+    {
+      "name": "Tie-Dye Halter Dress",
+      "price": "$10",
+      "category": "beachwear",
+      "image": "/images/beachwear-2.jpg",
+      "alt": "Red, navy and olive green tie-dye halter dress with a V-neckline"
+    },
+    {
+      "name": "Washed Blue Halter Dress",
+      "price": "$10",
+      "category": "beachwear",
+      "image": "/images/beachwear-3.jpg",
+      "alt": "Washed teal-blue mid-length halter dress with a V-neckline"
+    },
+    {
+      "name": "Green Tropical Apple Print Tie-Front Dress",
+      "price": "$20",
+      "category": "beachwear",
+      "image": "/images/beachwear-4.jpg",
+      "alt": "Bright green tie-front dress with a ruffle hem in a tropical print of apples, flowers and leaves, shown in two photos"
+    },
+    {
+      "name": "Floral Wrap Dress",
+      "price": "$20",
+      "category": "beachwear",
+      "image": "/images/beachwear-5.jpg",
+      "alt": "Pink, mustard and blue ditsy floral wrap-front dress with an elastic waist and ruffle hem"
+    },
+    {
+      "name": "Black Sheer Grid Cover-Up",
+      "price": "$20",
+      "category": "beachwear",
+      "image": "/images/beachwear-6.jpg",
+      "alt": "Long-sleeve black sheer grid-pattern V-neck beach cover-up"
+    },
+    {
+      "name": "Pink Tropical Floral T-Shirt Dress",
+      "price": "$25",
+      "category": "beachwear",
+      "image": "/images/beachwear-9.jpg",
+      "alt": "Short-sleeve dress in a hot pink, coral and yellow tropical floral print"
+    },
+    {
+      "name": "Mint Floral Kimono Wrap",
+      "price": "$18",
+      "category": "beachwear",
+      "image": "/images/beachwear-11.jpg",
+      "alt": "Mint and white floral kimono wrap shown flat and worn over a white dress"
+    },
+    {
+      "name": "Sleeveless Swing Dress (Orange or Pink)",
+      "price": "$20",
+      "category": "beachwear",
+      "image": "/images/beachwear-12.jpg",
+      "alt": "Sleeveless swing dress shown in orange on a model and in hot pink on a dress form"
+    },
+    {
+      "name": "Mint Floral Tassel-Tie Dress",
+      "price": "$25",
+      "category": "beachwear",
+      "image": "/images/beachwear-13.jpg",
+      "alt": "Mint floral print dress with a tassel-tie neckline, shown on a hanger and on a model"
+    },
+    {
+      "name": "Blue Seashell Print Dress",
+      "price": "$20",
+      "category": "beachwear",
+      "image": "/images/beachwear-14.jpg",
+      "alt": "Blue and white seashell print v-neck dress with three-quarter sleeves, shown on a hanger and on a model"
+    },
+    {
+      "name": "Embroidered Neckline Caftan (Green or Blue)",
+      "price": "$20",
+      "category": "beachwear",
+      "image": "/images/beachwear-15.jpg",
+      "alt": "Sleeveless caftan dress with an embroidered neckline, shown in a green palm print and a blue tie-dye print"
+    },
+    {
+      "name": "Pom-Pom Trim Knit Cover-Up (White or Black)",
+      "price": "$20",
+      "category": "beachwear",
+      "image": "/images/beachwear-16.jpg",
+      "alt": "Open-knit cover-up with pom-pom trim, shown in white and in black"
+    },
+    {
+      "name": "Blue Coral Print Tank Dress",
+      "price": "$25",
+      "category": "beachwear",
+      "image": "/images/beachwear-17.jpg",
+      "alt": "Sleeveless white dress with a blue coral print and a handkerchief hem"
+    },
+    {
+      "name": "Tropical Floral Tank Dress",
+      "price": "$25",
+      "category": "beachwear",
+      "image": "/images/beachwear-18.jpg",
+      "alt": "Woman on the beach in a sleeveless dress with bright tropical flowers and palm leaves"
+    },
+    {
+      "name": "Tropical Palm Kimono Wrap",
+      "price": "$18",
+      "category": "beachwear",
+      "image": "/images/beachwear-19.jpg",
+      "alt": "Pink, green and orange palm print kimono wrap shown flat and worn over a white sundress"
+    },
+    {
+      "name": "Coral Paisley Tie-Sleeve Dress",
+      "price": "$15",
+      "category": "beachwear",
+      "image": "/images/beachwear-20.jpg",
+      "alt": "Short-sleeve dress in a coral, pink and turquoise paisley print with tie sleeves"
+    },
+    {
+      "name": "Oversized Fashion Sunglasses",
+      "price": "$8",
+      "category": "accessories",
+      "image": "/images/beachwear-7.jpg",
+      "alt": "Three pairs of oversized square sunglasses in tortoise, pink mirror and black"
+    },
+    {
+      "name": "Sport Wrap Sunglasses",
+      "price": "$8",
+      "category": "accessories",
+      "image": "/images/beachwear-8.jpg",
+      "alt": "Four pairs of wraparound sport sunglasses with blue, green and red mirrored lenses"
+    },
+    {
+      "name": "Beach Therapy Ball Cap",
+      "price": "$12",
+      "category": "accessories",
+      "image": "/images/accessories-1.jpg",
+      "alt": "White ball cap embroidered with Beach Therapy in pink"
+    },
+    {
+      "name": "Local Seashell Ball Cap",
+      "price": "$12",
+      "category": "accessories",
+      "image": "/images/accessories-2.jpg",
+      "alt": "Turquoise ball cap embroidered with the word local, with a seashell for the letter o"
+    },
+    {
+      "name": "Palm Tree Trucker Hat",
+      "price": "$12",
+      "category": "accessories",
+      "image": "/images/accessories-3.jpg",
+      "alt": "Green mesh-back trucker hat with a colorful palm tree patch"
+    },
+    {
+      "name": "Anchor Ball Cap",
+      "price": "$12",
+      "category": "accessories",
+      "image": "/images/accessories-4.jpg",
+      "alt": "Royal blue ball cap embroidered with a white anchor"
+    }
+  ]
+}

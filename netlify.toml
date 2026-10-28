@@ -1,0 +1,33 @@
+# Netlify settings for the Knotty Girlz site.
+# It's plain HTML, so there is no build step — Netlify just publishes this folder.
+[build]
+  publish = "."
+
+# Send anyone who visits the old knotty-girlz.netlify.app address to the real domain,
+# keeping the same page (e.g. /shop.html). Deploy previews use a different address, so they still work.
+[[redirects]]
+  from = "https://knotty-girlz.netlify.app/*"
+  to = "https://knottygirlzboutique.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://knotty-girlz.netlify.app/*"
+  to = "https://knottygirlzboutique.com/:splat"
+  status = 301
+  force = true
+
+# Custom orders are paused: send old links to the Shop page.
+# 302 (temporary) so it's easy to bring the page back later.
+# To restore: copy custom-orders.html back from "Knotty Girlz Originals/Custom Orders (paused)" and delete these two rules.
+[[redirects]]
+  from = "/custom-orders"
+  to = "/shop.html"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/custom-orders.html"
+  to = "/shop.html"
+  status = 302
+  force = true
