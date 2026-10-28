@@ -21,6 +21,8 @@ js/main.js            Mobile menu, builds the shop cards, shop filters, small he
 data/products.json    Every product on the Shop page (name, price, category, photo)
 admin/                Lisa's admin page (Sveltia CMS) at /admin/, and its settings in admin/config.yml
 LISA-GUIDE.md         One-page guide for Lisa: log in, add a product, change a price, remove an item
+LISA-GUIDE.pdf        Printable version of the guide to send her (made from LISA-GUIDE-print.html)
+LISA-GUIDE-print.html Source for the PDF. After changing it, open it in Chrome and Print → Save as PDF (Letter, no headers/footers)
 images/               All photos (swap these out for your own)
 netlify.toml          Tells Netlify how to publish the site
 sitemap.xml           List of pages for Google (update it if you add a page)

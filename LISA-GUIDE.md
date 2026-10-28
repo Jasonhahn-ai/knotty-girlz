@@ -12,6 +12,10 @@ You can add, change and remove products yourself. No code needed. Anything you s
 3. If GitHub asks, type your GitHub username and password. The very first time, it also asks you to **Authorize**. Click the green button.
 4. Click **Shop** on the left, then **Shop Products**.
 
+> **Sign-in stuck?**
+> - GitHub may have opened a small sign-in window that's hiding behind your browser. Look for it on your taskbar or dock, finish signing in there, and it will close by itself.
+> - Using Firefox and seeing **"Invalid state key"**? Click the **shield icon** at the left of the address bar, turn **Enhanced Tracking Protection** off for this site, then try again. Or just use Google Chrome.
+
 You'll see your products as a list of grey bars. Each bar has a number, and the product's photo, name and price show just below it.
 
 ```

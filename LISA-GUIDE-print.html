@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Updating the Knotty Girlz Shop: Lisa's Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Nunito:wght@400;700;800&family=Pacifico&display=swap" rel="stylesheet">
+<style>
+  @page { size: letter; margin: 0.45in 0.5in; }
+  :root { --dusk:#7B5EA7; --dusk-ink:#5B3F8A; --pink:#F25C8A; --pink-ink:#C2185B; --orange:#F79256; --sand:#FBD1A2; --ink:#2E1F47; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:"Nunito",sans-serif; color:var(--ink); font-size:10.2pt; line-height:1.38; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  header { background:linear-gradient(100deg,var(--orange),var(--pink) 55%,#A68BD0); border-radius:14px; padding:10px 18px 11px; margin-bottom:10px; }
+  header .logo { font-family:"Pacifico",cursive; font-size:15pt; margin:0; }
+  header h1 { font-family:"Caveat",cursive; font-size:27pt; line-height:1; margin:2px 0 4px; }
+  header p { margin:0; font-weight:700; font-size:9.6pt; }
+  .cols { display:grid; grid-template-columns:1fr 1fr; gap:10px 16px; }
+  section { border:1.5px solid rgba(123,94,167,.3); border-radius:12px; padding:8px 13px 9px; break-inside:avoid; }
+  h2 { font-family:"Caveat",cursive; font-size:19pt; color:var(--dusk-ink); margin:0 0 3px; line-height:1.05; }
+  h2 .n { display:inline-block; width:24px; height:24px; border-radius:50%; background:var(--dusk); color:#fff; font-family:"Nunito",sans-serif; font-size:11pt; font-weight:800; text-align:center; line-height:24px; margin-right:6px; vertical-align:3px; }
+  ol, ul { margin:3px 0; padding-left:18px; }
+  li { margin:2px 0; }
+  ul.fields { padding-left:15px; }
+  b { font-weight:800; }
+  .k { display:inline-block; min-width:17px; padding:0 4px; border:1px solid #9a8fae; border-radius:4px; background:#f3f0f8; font-weight:800; text-align:center; line-height:1.25; }
+  .save { background:#1565C0; color:#fff; border-radius:4px; padding:0 5px; font-weight:800; }
+  .bar { margin:5px 0 4px; border:1px solid #c5c9cf; border-radius:6px; overflow:hidden; font-size:9pt; }
+  .bar .top { background:#c8ccd1; display:flex; align-items:center; gap:8px; padding:3px 8px; font-weight:800; }
+  .bar .top .mid { flex:1; text-align:center; letter-spacing:2px; }
+  .bar .sum { padding:3px 8px; background:#fafafa; display:flex; align-items:center; gap:7px; }
+  .bar .thumb { width:18px; height:18px; border-radius:3px; background:var(--sand); }
+  dl.legend { display:grid; grid-template-columns:22px 1fr; gap:1px 4px; margin:4px 0 0; font-size:9.4pt; }
+  dl.legend dt { text-align:center; } dl.legend dd { margin:0; }
+  .tip { background:#FFF4E8; border-left:4px solid var(--orange); border-radius:6px; padding:5px 9px; margin-top:6px; font-size:9.4pt; }
+  .help { background:#F3EEFA; border-left:4px solid var(--dusk); }
+  .wide { grid-column:1 / -1; }
+  footer { margin-top:9px; text-align:center; font-weight:800; color:var(--pink-ink); font-size:10pt; }
+</style>
+</head>
+<body>
+<header>
+  <p class="logo">Knotty Girlz</p>
+  <h1>Updating the Shop: Lisa’s Guide</h1>
+  <p>Add, change and remove products yourself, no code needed. Saves show up on the website in about 1–2 minutes, and every save is kept in a history, so anything can be undone.</p>
+</header>
+
+<div class="cols">
+  <section>
+    <h2><span class="n">1</span>Log in</h2>
+    <ol>
+      <li>Go to <b>knottygirlzboutique.com/admin</b> (bookmark it!).</li>
+      <li>Click <b>Sign In with GitHub</b>.</li>
+      <li>If GitHub asks, type your GitHub username and password. The very first time, also click the green <b>Authorize</b> button.</li>
+      <li>Click <b>Shop</b> on the left, then <b>Shop Products</b>.</li>
+    </ol>
+    <div class="tip help"><b>Sign-in stuck?</b>
+      <ul>
+        <li>GitHub may have opened a small sign-in window <b>hiding behind your browser</b>. Look on your taskbar or dock, finish signing in there, and it closes by itself.</li>
+        <li><b>Firefox</b> says <b>“Invalid state key”</b>? Click the <b>shield icon</b> left of the address bar, turn <b>Enhanced Tracking Protection</b> off for this site, and try again. Or just use <b>Google Chrome</b>.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="n">2</span>Your product list</h2>
+    Each product is a grey bar, with its photo, name and price just below:
+    <div class="bar">
+      <div class="top"><span>› 12</span><span class="mid">═</span><span>⋮ &nbsp;✕</span></div>
+      <div class="sum"><span class="thumb"></span>Cat Mom Tee ($15)</div>
+    </div>
+    <dl class="legend">
+      <dt><span class="k">›</span></dt><dd>(left end) <b>opens</b> the product so you can change it</dd>
+      <dt><span class="k">═</span></dt><dd>(middle) <b>drag</b> to move it up or down. On a phone or tablet you’ll see <b>↑ ↓</b> arrows instead</dd>
+      <dt><span class="k">⋮</span></dt><dd>extra options, like <b>Duplicate</b> (copies it, handy for a similar product)</dd>
+      <dt><span class="k">✕</span></dt><dd>(right end) <b>removes</b> the product</dd>
+    </dl>
+    <div class="tip">Products show on the Shop page in the same order as this list. Works on a computer, tablet or phone.</div>
+  </section>
+
+  <section>
+    <h2><span class="n">3</span>Add a product</h2>
+    <ol>
+      <li>Click <b>+ Add Product</b> at the top of the list. A new, empty product opens at the top.</li>
+      <li>Fill it in:
+        <ul class="fields">
+          <li><b>Product name</b>, e.g. <i>Pink Starfish Tote</i></li>
+          <li><b>Price</b>, exactly how customers should see it, e.g. <i>$20</i> or <i>$5 each</i></li>
+          <li><b>Category</b>: pick one from the list</li>
+          <li><b>Photo</b>: click <b>Browse</b> and pick a picture. Square looks best. Big phone photos are fine (they’re shrunk automatically).</li>
+          <li><b>Photo description</b>: a few words, e.g. <i>Pink canvas tote with a white starfish</i></li>
+          <li><b>Description (optional)</b>: leave empty unless you want a line under the name</li>
+        </ul>
+      </li>
+      <li>Click the blue <span class="save">Save</span> button (top right).</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2><span class="n">4</span>Change a price</h2>
+    <p style="margin:0 0 2px">(or the name, photo or category)</p>
+    <ol>
+      <li>Find the product. Tip: press <b>Ctrl+F</b> (<b>⌘+F</b> on a Mac) and type part of the name.</li>
+      <li>Click the <span class="k">›</span> at the left end of its bar to open it.</li>
+      <li>Change the <b>Price</b> box.</li>
+      <li>Click the blue <span class="save">Save</span> button.</li>
+    </ol>
+
+    <h2 style="margin-top:8px"><span class="n">5</span>Remove a product</h2>
+    <ol>
+      <li>Find the product.</li>
+      <li>Click the <span class="k">✕</span> at the <b>right end of its grey bar</b>.</li>
+      <li>A blue <b>“Item removed.”</b> message appears. Wrong one? Click <b>Restore</b>.</li>
+      <li>Click the blue <span class="save">Save</span> button.</li>
+    </ol>
+    <div class="tip">Just sold out for now? Remove it and add it again later. The photo stays saved.</div>
+  </section>
+</div>
+
+<footer>Nothing changes on the website until you click Save. After saving, wait 1–2 minutes and refresh the Shop page.<br>Stuck or made a mistake? Don’t worry. Just text or call Jason. Everything can be undone.</footer>
+</body>
+</html>
