@@ -1,6 +1,14 @@
 {
   "products": [
     {
+      "name": "Sandy Claus T shirt",
+      "price": "$20",
+      "category": "shirts",
+      "image": "/images/sandy.webp",
+      "alt": "",
+      "description": ""
+    },
+    {
       "name": "Sandy Claus",
       "price": "$20",
       "category": "shirts",
