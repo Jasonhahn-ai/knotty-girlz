@@ -239,7 +239,12 @@ Collaborators**).
 
 | Who | GitHub username | Access | Status |
 |---|---|---|---|
-| Lisa | `12voltman512` | Write | Invited 2026-10-28, **pending**. She has to accept the email invitation before she can sign in to the admin page. |
+| Lisa | `12voltman512` | Write | **Working.** Invited 2026-10-28, accepted. Her admin-page saves deploy to the live site (confirmed 2026-10-31). |
+
+**Keep the GitHub repository public.** On Netlify's free plan, a private repository only deploys commits from
+members of the Netlify account. Lisa isn't one, so her saves failed with "Unrecognized Git contributor" until the
+repository was made public on 2026-10-31. Making it public lets anyone view the code, but only collaborators can
+change it. If it's ever made private again, her saves will stop going live.
 
 ### Turn on the forms
 Netlify finds the **Contact** form automatically when you deploy.
