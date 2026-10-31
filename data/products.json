@@ -2,7 +2,7 @@
   "products": [
     {
       "name": "Sandy Claus T shirt",
-      "price": "$19",
+      "price": "$20",
       "category": "shirts",
       "image": "/images/sandy.webp",
       "alt": "",
