@@ -1,6 +1,14 @@
 {
   "products": [
     {
+      "name": "Merry Grinchmas",
+      "price": "$20",
+      "category": "shirts",
+      "image": "/images/grinchmas.webp",
+      "alt": "",
+      "description": ""
+    },
+    {
       "name": "Joy shirt",
       "price": "$20",
       "category": "shirts",
