@@ -9,14 +9,6 @@
       "description": ""
     },
     {
-      "name": "Sandy Claus",
-      "price": "$20",
-      "category": "shirts",
-      "image": "/images/sandy.webp",
-      "alt": "Sandy Claus is coming to town",
-      "description": ""
-    },
-    {
       "name": "‘Tis the Season Holiday Tee",
       "price": "$20",
       "category": "shirts",
