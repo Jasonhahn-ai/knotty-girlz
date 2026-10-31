@@ -1,6 +1,14 @@
 {
   "products": [
     {
+      "name": "Grinch Bow",
+      "price": "$20",
+      "category": "shirts",
+      "image": "/images/pink-grinch.webp",
+      "alt": "",
+      "description": ""
+    },
+    {
       "name": "Merry Grinchmas",
       "price": "$20",
       "category": "shirts",
