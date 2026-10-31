@@ -1,6 +1,14 @@
 {
   "products": [
     {
+      "name": "It's all in the bag",
+      "price": "$2 each or 3 for $5",
+      "category": "gifts",
+      "image": "/images/bags-too.webp",
+      "alt": "Adorable little bags are perfect for Gift Cards, Jewelry, or cash",
+      "description": "Even the smallest gifts deserve cute packaging"
+    },
+    {
       "name": "Sandy Claus T shirt",
       "price": "$19",
       "category": "shirts",
