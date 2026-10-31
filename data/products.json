@@ -1,6 +1,14 @@
 {
   "products": [
     {
+      "name": "Grinch Squad",
+      "price": "$20",
+      "category": "shirts",
+      "image": "/images/squad.webp",
+      "alt": "",
+      "description": ""
+    },
+    {
       "name": "Grinch Bow",
       "price": "$20",
       "category": "shirts",
