@@ -1,6 +1,14 @@
 {
   "products": [
     {
+      "name": "Holly Jolly Apron",
+      "price": "$15",
+      "category": "gifts",
+      "image": "/images/apron.webp",
+      "alt": "",
+      "description": ""
+    },
+    {
       "name": "Grinch Squad",
       "price": "$20",
       "category": "shirts",
