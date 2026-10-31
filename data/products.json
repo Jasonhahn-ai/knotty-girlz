@@ -1,6 +1,14 @@
 {
   "products": [
     {
+      "name": "Joy shirt",
+      "price": "$20",
+      "category": "shirts",
+      "image": "/images/joy.webp",
+      "alt": "Joy Shirt",
+      "description": ""
+    },
+    {
       "name": "It's all in the bag",
       "price": "$2 each or 3 for $5",
       "category": "gifts",
